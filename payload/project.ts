@@ -41,7 +41,8 @@ const project: IProject.Payload = {
     },
     {
       title: 'GSA Infoteam Application Management',
-      startedAt: '2017-10',
+      startedAt: '2020-02',
+      endedAt: '2020-03',
       where: '개인 프로젝트',
       descriptions: [
         { content: "교내 학생회 산하 전산관련 자치회인 '인포팀' 신입팀원 지원 관리 시스템" },
