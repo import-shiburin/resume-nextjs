@@ -4,27 +4,14 @@ const experience: IExperience.Payload = {
   disable: false,
   list: [
     {
-      title: 'Foo Company',
-      position: 'Node.js Developer',
-      startedAt: '2018-02',
+      title: 'GIST 계산시스템생물학 연구실',
+      position: '백엔드 개발자(학부 인턴)',
+      startedAt: '2019-07',
       descriptions: [
-        'OTA Service Provider',
-        'Data modeling and Mashup API development',
-        'Systems Engineering and DevOps',
+        'AI기반 신약개발 플랫폼 데이터 수합/정규화 시스템 유지보수',
+        'Bulk 입력 API 개발',
       ],
-      skillKeywords: ['Node.js', 'TypeScript', 'Express.js', 'Mashup API', 'AWS'],
-    },
-    {
-      title: 'Bar Co., Ltd.',
-      position: 'Software Enginner',
-      startedAt: '2016-10',
-      endedAt: '2017-11',
-      descriptions: [
-        'Online Commerce IT Startup',
-        'Development of reservation system and service worker',
-        'AWS infrastructure and RDBMS maintenance and development',
-      ],
-      skillKeywords: ['Node.js', 'MySQL', 'AWS'],
+      skillKeywords: ['Python', 'Django', 'PostgreSQL', 'Docker', 'Ubuntu'],
     },
   ],
 };

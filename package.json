@@ -1,6 +1,6 @@
 {
   "name": "resume-nextjs",
-  "lastestUpdatedAt": "2020-04-12",
+  "lastestUpdatedAt": "2020-11-08",
   "version": "1.0.3",
   "description": "Static HTML based RESUME made with next.js",
   "main": "index.js",
@@ -18,18 +18,18 @@
     "lint": "eslint 'component/**/*' 'pages/**/*' 'payload/**/*' '*.ts' --fix",
     "typedoc": "typedoc --excludeExternals"
   },
-  "homepage": "https://uyu423.github.io/resume-nextjs",
+  "homepage": "https://resume.shibuya-rin.moe/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uyu423/resume-nextjs.git"
+    "url": "git+https://github.com/sangeu2000/resume-nextjs.git"
   },
   "keywords": [
     "resume",
     "next"
   ],
   "author": {
-    "name": "Yowu Yu",
-    "email": "me@yowu.dev"
+    "name": "Sangyu Lee",
+    "email": "me@shibuya-rin.moe"
   },
   "contributors": [],
   "license": "MIT",
@@ -48,7 +48,7 @@
     "debug": "^4.2.0",
     "jquery": "^3.5.1",
     "luxon": "^1.25.0",
-    "next": "^9.5.3",
+    "next": "^9.5.5",
     "next-images": "^1.6.0",
     "next-seo": "^4.11.0",
     "react": "^16.13.1",

@@ -5,16 +5,16 @@ const presentation: IPresentation.Payload = {
 
   list: [
     {
-      title: 'Lorem ipsum',
-      subTitle: 'consectetur adipiscing elit',
-      at: '2017-10',
+      title: '산 너머 산, 게임 기록 크롤링',
+      subTitle: '2019 파이콘 한국 라이트닝 토크(2일차)',
+      at: '2019-08',
       descriptions: [
         {
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+          content: 'Python을 사용한 Jubeat Tools 크롤러 구조 소개',
         },
         {
-          content: 'Slideshare:',
-          postHref: 'https://www.slideshare.net//',
+          content: 'Youtube:',
+          postHref: 'https://www.youtube.com/watch?v=irkRUczhie8',
         },
       ],
     },
