@@ -15,8 +15,8 @@ const profile: IProfile.Payload = {
   },
   contact: [
     {
-      title: 'me@shibuya-rin.moe',
-      link: 'mailto://me@shibuya-rin.moe',
+      title: 'sangeu2000@gmail.com',
+      link: 'mailto://sangeu2000@gmail.com',
       icon: faEnvelope,
     },
     {
