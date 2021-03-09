@@ -13,6 +13,7 @@ const introduce: IIntroduce.Payload = {
     '- AWS 등 클라우드 환경, Xenserver을 사용한 온프레미스 하이퍼바이저 환경 경험',
     '- Site-to-Site VPN 설정, DHCP Option 121을 사용한 Multiple-Gateway Route 설정 경험',
     "서비스 운영에 필요한 전반적인 지식을 얻기 위해 '직접 해보며 알아가는' 방법을 가장 좋아합니다.",
+    '산업기능요원 현역 신규 편입을 희망합니다.',
   ],
   sign: '',
   // sign: packageJson.author.name,

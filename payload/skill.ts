@@ -16,6 +16,10 @@ const backend: ISkill.Skill = {
       level: 2,
     },
     {
+      title: 'Kubernetes',
+      level: 2,
+    },
+    {
       title: 'C/C++',
       level: 2,
     },
