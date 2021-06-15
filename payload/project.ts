@@ -27,7 +27,7 @@ const project: IProject.Payload = {
         },
         {
           content:
-            'kubectl의 사용 경험과 유사하도록, singular name/plural name/shorten names를 이용한 리소스 resolve가 가능하도록 개발',
+            'kubectl의 사용 경험과 유사하도록, singular name/plural name/short names를 이용한 리소스 resolve가 가능하도록 개발',
         },
         {
           content: '유저가 프레임워크 코드를 수정하지 않고 정책 추가/삭제가 자유롭도록 설계',
