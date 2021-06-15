@@ -8,7 +8,15 @@ const experience: IExperience.Payload = {
       position: 'DevOps Engineer',
       startedAt: '2021-02',
       descriptions: [],
-      skillKeywords: ['Docker', 'Kubernetes'],
+      skillKeywords: [
+        'Docker',
+        'Kubernetes',
+        'Terraform',
+        'Amazon web services',
+        'Golang',
+        'ArgoCD',
+        'Istio',
+      ],
     },
     {
       title: 'GIST 계산시스템생물학 연구실',

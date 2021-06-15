@@ -12,6 +12,20 @@ const backend: ISkill.Skill = {
       level: 3,
     },
     {
+      title: 'Golang',
+      level: 2,
+    },
+    {
+      title: 'C/C++',
+      level: 2,
+    },
+  ],
+};
+
+const devops: ISkill.Skill = {
+  category: 'DevOps',
+  items: [
+    {
       title: 'Amazon Web Services',
       level: 2,
     },
@@ -20,8 +34,16 @@ const backend: ISkill.Skill = {
       level: 2,
     },
     {
-      title: 'C/C++',
+      title: 'Terraform',
       level: 2,
+    },
+    {
+      title: 'Istio',
+      level: 2,
+    },
+    {
+      title: 'ArgoCD',
+      level: 1,
     },
   ],
 };
@@ -40,6 +62,10 @@ const database: ISkill.Skill = {
     {
       title: 'Redis',
       level: 2,
+    },
+    {
+      title: 'CockroachDB',
+      level: 1,
     },
     {
       title: 'MongoDB',
@@ -80,9 +106,9 @@ const etc: ISkill.Skill = {
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [backend, database, frontend, etc],
+  skills: [backend, devops, database, frontend, etc],
   tooltip:
-    '1: 기초 수준, 2: 인터넷의 튜토리얼들을 참고하여 개발하는 수준, 3: 공식 문서를 참조하거나 코드를 직접 분석해 문제를 해결해보고자 하는 수준',
+    '1: 기초 수준, 2: 인터넷 튜토리얼나 공식 문서 등을 참고해 문제를 해결하는 수준, 3: 직접 코드 분석을 통해 문제 해결을 시도하는 수준',
 };
 
 export default skill;

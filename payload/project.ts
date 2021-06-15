@@ -4,6 +4,54 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: 'VaultSecretMap Operator',
+      startedAt: '2021-04',
+      endedAt: '2021-06',
+      where: 'DEVSISTERS',
+      descriptions: [
+        {
+          content:
+            'Secret store인 Vault에 저장되어 있는 secret을 Kubernetes secret object로 매핑하는 VaultSecretMap Custom resource 정의와 Operator 개발',
+        },
+      ],
+    },
+    {
+      title: 'Kubernetes Policy Checker',
+      startedAt: '2021-02',
+      endedAt: '2021-04',
+      where: 'DEVSISTERS',
+      descriptions: [
+        {
+          content:
+            'Kubernetes의 리소스에 대해 정책을 만들고, 정책 검증에 실패한 리소스를 보고하는 프레임워크 개발',
+        },
+        {
+          content:
+            'kubectl의 사용 경험과 유사하도록, singular name/plural name/shorten names를 이용한 리소스 resolve가 가능하도록 개발',
+        },
+        {
+          content: '유저가 프레임워크 코드를 수정하지 않고 정책 추가/삭제가 자유롭도록 설계',
+        },
+        {
+          content: 'Fail-safe한 Slack interaction 구현',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content:
+                '사용자가 특정 리소스에 대한 검사를 비활성화할 수 있는 Slack interaction 기능 제작',
+            },
+            {
+              content: 'Slack interactor에 연결할 수 없더라도 정책 검사가 이루어지도록 서비스 분리',
+            },
+            {
+              content:
+                'Slack interactor에서 검사 비활성화 대상 리소스 목록을 받아오지 못하는 경우, 모든 리소스에 대해 검사하도록 Fallback 구현',
+            },
+          ],
+        },
+      ],
+    },
+    {
       title: 'AI기반 신약개발 플랫폼 데이터 수합/정규화 시스템',
       startedAt: '2019-07',
       where: 'GIST 계산시스템생물학 연구실',
