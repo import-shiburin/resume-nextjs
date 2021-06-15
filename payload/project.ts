@@ -34,7 +34,6 @@ const project: IProject.Payload = {
         },
         {
           content: 'Fail-safe한 Slack interaction 구현',
-          weight: 'MEDIUM',
           descriptions: [
             {
               content:
