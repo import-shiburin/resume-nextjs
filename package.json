@@ -1,6 +1,6 @@
 {
   "name": "resume-nextjs",
-  "lastestUpdatedAt": "2021-09-01",
+  "lastestUpdatedAt": "2022-10-23",
   "version": "1.2.0",
   "description": "Static HTML based RESUME made with next.js",
   "main": "index.js",
@@ -21,7 +21,7 @@
   "homepage": "https://resume.shibuya-rin.moe/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sangeu2000/resume-nextjs.git"
+    "url": "git+https://github.com/import-shiburin/resume-nextjs.git"
   },
   "keywords": [
     "resume",

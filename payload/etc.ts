@@ -5,6 +5,11 @@ const etc: IEtc.Payload = {
 
   list: [
     {
+      title: '정보처리산업기사',
+      subTitle: '자격증 취득',
+      startedAt: '2021-08',
+    },
+    {
       title: '네트워크관리사 2급',
       subTitle: '자격증 취득',
       startedAt: '2020-07',

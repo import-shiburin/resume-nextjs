@@ -25,8 +25,8 @@ const profile: IProfile.Payload = {
       icon: faPhone,
     },
     {
-      title: 'https://github.com/sangeu2000',
-      link: 'https://github.com/sangeu2000',
+      title: 'https://github.com/import-shiburin',
+      link: 'https://github.com/import-shiburin',
       icon: faGithub,
     },
   ],

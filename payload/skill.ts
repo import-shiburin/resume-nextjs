@@ -19,6 +19,10 @@ const backend: ISkill.Skill = {
       title: 'C/C++',
       level: 2,
     },
+    {
+      title: 'Rust',
+      level: 2,
+    },
   ],
 };
 
@@ -39,6 +43,14 @@ const devops: ISkill.Skill = {
     },
     {
       title: 'Istio',
+      level: 2,
+    },
+    {
+      title: 'Docker Compose',
+      level: 2,
+    },
+    {
+      title: 'Traefik',
       level: 2,
     },
     {
@@ -65,7 +77,7 @@ const database: ISkill.Skill = {
     },
     {
       title: 'CockroachDB',
-      level: 1,
+      level: 2,
     },
     {
       title: 'MongoDB',

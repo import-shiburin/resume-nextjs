@@ -4,6 +4,47 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: '사내방송 스트리밍 서비스 개발',
+      startedAt: '2021-09',
+      endedAt: '2022-02',
+      where: 'DEVSISTERS',
+      descriptions: [
+        {
+          content:
+            'Vimeo를 대체하는 HLS(AWS MediaLive & MediaStore) 기반 사내방송 스트리밍 서비스 개발',
+          descriptions: [
+            {
+              content: 'CloudFront와 로컬 캐시 서버를 함께 사용해 대역폭 이슈 해결',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      title: '저 대역폭 환경의 리소스 다운로드 실패 이슈 대응',
+      startedAt: '2021-09',
+      endedAt: '2021-10',
+      where: 'DEVSISTERS',
+      descriptions: [
+        {
+          content:
+            '저 대역폭의 네트워크를 사용하는 유저가 게임 업데이트 중 리소스 다운로드를 실패하는 문제 로그 베이스 분석 및 대응',
+        },
+      ],
+    },
+    {
+      title: "Let's Encrypt DST Root CA 만료 이슈 대응",
+      startedAt: '2021-06',
+      endedAt: '2021-10',
+      where: 'DEVSISTERS',
+      descriptions: [
+        {
+          content:
+            "2021년 10월 말 DST Root CA가 만료됨에 따라 발생하는 구형 디바이스에서의 Let's Encrypt 인증서 신뢰 문제 파악 및 대응",
+        },
+      ],
+    },
+    {
       title: 'VaultSecretMap Operator',
       startedAt: '2021-04',
       endedAt: '2021-06',
