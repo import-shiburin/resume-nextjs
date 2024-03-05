@@ -18,7 +18,7 @@
     "lint": "eslint \"component/**/*\" \"pages/**/*\" \"payload/**/*\" \"*.ts\" --fix",
     "typedoc": "typedoc --excludeExternals"
   },
-  "homepage": "https://resume.shibuya-rin.moe/",
+  "homepage": "https://resume.sangyul.ee/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/import-shiburin/resume-nextjs.git"
